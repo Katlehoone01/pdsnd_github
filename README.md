@@ -15,5 +15,5 @@ in a terminal to persent those statistics.
 Three .csv files for each of the relevant cities. Used to import the bikeshare data from. 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would like to give credit to Richard Kalehoff for his outstanding work as a version contorl instructor. 
 
