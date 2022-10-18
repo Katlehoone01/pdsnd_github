@@ -12,7 +12,7 @@ questions about that data by calvulating descriptive statistics. The program all
 in a terminal to persent those statistics.
 
 ### Files used
-Include the files used
+Three .csv files for each of the relevant cities. Used to import the bikeshare data from. 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
