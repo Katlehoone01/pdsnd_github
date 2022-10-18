@@ -7,7 +7,9 @@
 Explore US Bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+This program uses python to explore data related to bike share systems for the cities Chicago, Washington and New York City. It answers interesting 
+questions about that data by calvulating descriptive statistics. The program allows the user to provide raw input to create an interactive experience
+in a terminal to persent those statistics.
 
 ### Files used
 Include the files used
