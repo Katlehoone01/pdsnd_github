@@ -41,8 +41,8 @@ def get_filters():
           User will be propted to specify if they would like to filter their reults by month. if the user's response is 'no'
           the function will return only the city's name.
     """
-    month_filter_queue = input('\nWould You Like To Filter Your Results By Month? Type \'Yes\' If You Do Or \'No\' If You Do not.  \n')
-    month_filter_queue_result = month_filter_queue.lower()  # All variants of the user's input will formated to be case insensetive by converting it into lowercase.
+    get_month = input('\nWould You Like To Filter Your Results By Month? Type \'Yes\' If You Do Or \'No\' If You Do not.  \n')
+    month_filter_queue_result = get_month.lower()  # All variants of the user's input will formated to be case insensetive by converting it into lowercase.
     month_filter_queue_test = ['yes','no'] # list of valid responses to the user's input. if either one is true user will filter results by month.
 
 
@@ -52,8 +52,8 @@ def get_filters():
          and will continue to ask for a valid result until the user's input is in the list of valid responses
     """
     while month_filter_queue_result not in month_filter_queue_test:
-        month_filter_queue = input('\nWould You Like To Filter Your Results By Month? Type \'Yes\' If You Do Or \'No\' If You Do not.  \n')
-        month_filter_queue_result = month_filter_queue.lower()  # All variants of the user's input will formated to be case insensetive by converting it into lowercase.
+        get_month = input('\nWould You Like To Filter Your Results By Month? Type \'Yes\' If You Do Or \'No\' If You Do not.  \n')
+        month_filter_queue_result = get_month.lower()  # All variants of the user's input will formated to be case insensetive by converting it into lowercase.
 
 
     """
